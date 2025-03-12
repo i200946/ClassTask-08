@@ -1,0 +1,20 @@
+{
+  "name": "express-api-ci",
+  "version": "1.0.0",
+  "description": "A simple Express API with GitHub Actions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.3",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
